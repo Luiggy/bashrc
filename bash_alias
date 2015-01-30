@@ -1,6 +1,6 @@
 #.bash_alias
 
-alias ls=ls --color=auto
+alias ls='ls --color=auto'
 
 #Safe mode
 alias rm='rm -i'

@@ -109,7 +109,9 @@ unset sq_color
 if [ -f ~/.bash_alias ]; then
 	. ~/.bash_alias
 fi
-
+if [ -f ~/.git-prompt.sh ]; then
+	. ~/.git-prompt.sh
+fi
 # Test connection type:
 if [ -n "${SSH_CONNECTION}" ]; then
 	CNX=${Green}        # Connected on remote machine, via ssh (good).
