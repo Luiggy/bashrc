@@ -17,12 +17,12 @@ source ~/.bashrc
 
 Then you will have a colorfull bash prompt.
 
-##Changelog
+## Changelog
 
-added cowsay for a cheerup message.
+- Added cowsay for a cheerup message.
 
 
 
-This is a modification of the original source:
-http://mediadoneright.com/content/ultimate-git-ps1-bash-prompt
+
+This is a modification of the original source, [Mediadoneright](http://mediadoneright.com/content/ultimate-git-ps1-bash-prompt).
 And i dont want it to be lost on the vast internet
