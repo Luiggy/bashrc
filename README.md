@@ -9,7 +9,7 @@ Make it work as follows:
 ```bash
 cd bashrc/
 mv ~/.bashrc ~/.bashrc.old
-ln -s $PWD/bashrc ~/bashrc/.bashrc 
+ln -s $PWD/bashrc ~/.bashrc 
 ln -s $PWD/bash_alias ~/.bash_alias
 ln -s $PWD/git-prompt.sh ~/.git-prompt.sh
 source ~/.bashrc
