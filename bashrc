@@ -101,7 +101,7 @@ if [[ ${EUID} == 0 ]] ; then
     fi
 
 export PS1="\n$sq_color\342\224\214\342\224\200\$([[ \$? != 0 ]] &&
-	echo\"[$BRed\342\234\227$sq_color]\342\224\200\")[$IBlack\t$sq_color]\342\224\200[\[\033[01;37m\]\u$sq_color]\342\224\200[$BGreen\w$sq_color]\n$sq_color\342\224\224\342\224\200\342\224\200> $BRed$(__git_ps1 "(%s)") $sq_color\$ $Color_Off"
+	echo \"[\[$BRed\342\234\227$sq_color]\342\224\200\")[$IBlack\t$sq_color]\342\224\200[\[\033[01;37m\]\u$sq_color]\342\224\200[$BGreen\w$sq_color]\n$sq_color\342\224\224\342\224\200\342\224\200> $BRed$(__git_ps1 "(%s)") $sq_color\$ $Color_Off"
 
 unset sq_color
 
